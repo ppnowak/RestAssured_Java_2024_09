@@ -1,3 +1,7 @@
+# Prezentacja
+
+Prezentacja znajduje się pod tym linkiem: https://api.breathtaking.website/files/prezentacja.pdf
+
 # RestAssured vs API paths
 
 Example path:
