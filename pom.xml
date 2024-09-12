@@ -68,4 +68,16 @@
         </plugins>
     </build>
 
+    <profiles>
+        <profile>
+            <id>smoke-tests-run</id>
+            <properties>
+                <groups>smoke-tests</groups>
+<!--                <test>pl.sages.training.restassured.junitExamples</test>-->
+            </properties>
+        </profile>
+
+
+    </profiles>
+
 </project>
