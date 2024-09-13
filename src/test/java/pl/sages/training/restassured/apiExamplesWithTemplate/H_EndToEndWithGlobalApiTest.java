@@ -62,6 +62,7 @@ public class H_EndToEndWithGlobalApiTest {
                 faker.address().city(),
                 faker.address().zipCode()
         );
+
         AddUserRequest expectedUser = new AddUserRequest(
                 faker.name().firstName(),
                 faker.name().lastName(),
