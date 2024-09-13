@@ -9,6 +9,15 @@ public class UserAddressData {
 
     private String city, zipCode;
 
+    public UserAddressData() { // empty constructor is left for Jackson DataBind
+    }
+
+    public UserAddressData(String street, String city, String zipCode) {
+        this.street = street;
+        this.city = city;
+        this.zipCode = zipCode;
+    }
+
     public String getCity() {
         return city;
     }

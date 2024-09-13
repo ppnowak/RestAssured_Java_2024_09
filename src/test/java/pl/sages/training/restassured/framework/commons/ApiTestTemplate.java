@@ -37,16 +37,21 @@ public class ApiTestTemplate {
 
 //    abstract String getEnvUrl();
 
+//    @BeforeEach
+//    public void setupRestAssured() {
+//        RestAssured.reset();
+//        RestAssured.baseURI = Config.getBaseUri();
+//        if (Config.getIsApiLoggingEnabled()) {
+//            RestAssured.filters(
+//                    new RequestLoggingFilter(),
+//                    new ResponseLoggingFilter()
+//            );
+//        }
+//    }
+
     @BeforeEach
     public void setupRestAssured() {
-        RestAssured.reset();
-        RestAssured.baseURI = Config.getBaseUri();
-        if (Config.getIsApiLoggingEnabled()) {
-            RestAssured.filters(
-                    new RequestLoggingFilter(),
-                    new ResponseLoggingFilter()
-            );
-        }
+        RestAssuredWrapper.given();
     }
 
 }
