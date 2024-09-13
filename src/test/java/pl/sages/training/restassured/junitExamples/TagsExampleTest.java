@@ -1,7 +1,7 @@
 package pl.sages.training.restassured.junitExamples;
 
 import org.junit.jupiter.api.*;
-import pl.sages.training.restassured.TestTags;
+import pl.sages.training.restassured.framework.commons.TestTags;
 
 public class TagsExampleTest {
 

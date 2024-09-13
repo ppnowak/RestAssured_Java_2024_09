@@ -1,4 +1,4 @@
-package pl.sages.training.restassured;
+package pl.sages.training.restassured.framework.commons;
 
 public class TestTags {
 
